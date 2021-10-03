@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+.offcanvas_ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+.offcanvas_ul > li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.offcanvas_ul > li a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.offcanvas_ul > li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+.nav-item > a {
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 600;
+  font-size: larger;
+}
+
+.navbar-brand {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.off_canvas {
+  position: absolute;
+  top: 1.5%;
+  z-index: 20;
+  font-family: "Pacifico", cursive;
+}
